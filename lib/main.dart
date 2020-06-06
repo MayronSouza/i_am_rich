@@ -12,8 +12,8 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-            image: NetworkImage('https://www.gettyimages.com.br/gi-resources/images/500px/983794168.jpg'),
-          ),
+              image: AssetImage('assets/images/diamond.png'),
+            ),
           ),
         ),
       ),
